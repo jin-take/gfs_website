@@ -892,7 +892,7 @@ Banner Style
   position: absolute;
   right: 0;
   top: 100px;
-  width: 819px;
+  width: 719px;
   height: 674px;
 }
 
@@ -1025,7 +1025,7 @@ Services Style
   text-align: center;
   margin: 15px;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: rgb(240, 229, 243);
   padding: 30px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.05);
 }
@@ -1173,14 +1173,14 @@ Portfolio
 
 .our-portfolio .item .hover-effect {
   position: absolute;
-  background-image: url(../images/hover-bg.png);
+  background-image: url(../images/port_background.png);
   background-repeat: no-repeat;
   background-size: cover;
   transition: all .5s;
-  bottom: -240px;
+  bottom: -320px;
   right: 30px;
   width: 239px;
-  height: 210px;
+  height: 239px;
 }
 
 .our-portfolio .item .hover-effect .inner-content {
@@ -1191,15 +1191,17 @@ Portfolio
 }
 
 .our-portfolio .item .hover-effect .inner-content h4 {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  margin: 1px;
 }
 
 .our-portfolio .item .hover-effect .inner-content span {
-  font-size: 15px;
-  color: #fff;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  margin: 8px;
 }
 
 .our-portfolio .item .thumb img {
@@ -1361,7 +1363,7 @@ Pricing
 }
 
 .pricing-tables .item span {
-  font-size: 44px;
+  font-size: 30px;
   color: #ff695f;
   font-weight: 700;
   display: block;
